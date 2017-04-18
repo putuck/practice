@@ -1,0 +1,62 @@
+body{
+  background-color: Indigo;
+}
+
+header{
+  height: 100px;
+  background: url("../images/header_bground.jpg");
+  background-repeat: repeat-x;
+}
+
+nav{
+  width: 15%;
+  height: 600px;
+  margin-top: 10px;
+  float: left;
+  padding: 20px;
+}
+
+main{
+  width: 60%;
+  height: 400px;
+  margin: 40px;
+  float: left;
+  background-color: white;
+  border-radius: 20px;
+}
+
+main div{
+  padding:30px;
+}
+
+main div button {
+  margin: 30px;
+}
+.button1 {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: maroon;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 20px;
+
+}
+
+a:hover{
+  background-color: inherit;
+  color:yellow;
+}
